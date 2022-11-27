@@ -1,0 +1,26 @@
+#dropdown {
+    font:bold 16px "malgun gothic";
+    background: rgb(255, 48, 48);
+    color:black;
+    line-height: 50px; 
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+#dropdown > ul > li {
+    float:left;
+    width:140px;
+    position:relative;
+}
+#dropdown > ul > li > ul {
+    width:130px;
+    display:none;
+    position: absolute;
+    font-size:14px;
+    background: rgb(255, 48, 48);
+}
+
+#dropdown > ul > li:hover > ul{
+    display:block;    
+}
